@@ -8,7 +8,7 @@ import {IconBaseProps} from "react-icons";
 type InputProps = {
     name: string,
     icon?: React.ComponentType<IconBaseProps>,
-
+    placeholder?: string,
 }
 
 export function Input({name, icon: Icon, ...rest}: InputProps) {
